@@ -1,0 +1,60 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.corpo{
+    background: gray;
+}
+ 
+canvas {
+    margin-top: 3rem;
+    background-color: #ccc;
+    border: 2px solid #333;
+
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 2rem;
+
+}
+
+.jogo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.card__container{
+    display: flex;
+    align-items: center;
+   
+
+}
+.card-dicas{
+    margin:  0 25% 0 25%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.rodape_paragrafo{
+    padding-top: 2%;
+}
+footer {
+    margin-top: 3rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    bottom: 0;
+    width: 100%;
+}
+
